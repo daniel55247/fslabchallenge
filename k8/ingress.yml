@@ -6,9 +6,9 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: nginx-example
+  ingressClassName: nginx
   rules:
-  - host: http://fsl-challenge.me
+  - host: fsl-challenge.me
     http:
       paths:
       - path: /
