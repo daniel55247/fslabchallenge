@@ -2,7 +2,7 @@
     "containerDefinitions": [ 
        { 
           "essential": true,
-          "image": "ghcr.io/daniel55247/try2/imagefstry2:latest",
+          "image": "ghcr.io/daniel55247/fslabchallenge/fslabimagechallenge:latest",
           "name": "app-container",
           "portMappings": [ 
              { 
